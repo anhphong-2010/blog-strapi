@@ -2,7 +2,7 @@ module.exports = ({ env }) => ({
   defaultConnection: "default",
   connections: {
     default: {
-      connector: "article",
+      connector: "bookshelf",
       settings: {
         client: "postgres",
         host: env("DATABASE_HOST", "localhost"),

@@ -3,6 +3,7 @@ const path = require("path");
 module.exports = ({ env }) => ({
   defaultConnection: "default",
   connection: {
+    connector: "bookshelf",
     client: "sqlite",
     connection: {
       filename: path.join(
