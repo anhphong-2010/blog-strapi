@@ -13,7 +13,9 @@ module.exports = ({ env }) => ({
         schema: "public",
         ssl: { rejectUnauthorized: false },
       },
-      options: {},
+      options: {
+        ssl: false,
+      },
     },
   },
 });
