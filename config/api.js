@@ -4,4 +4,12 @@ module.exports = {
     maxLimit: 100,
     withCount: true,
   },
+  graphql: {
+    config: {
+      endpoint: "/graphql",
+      apolloServer: {
+        introspection: true,
+      },
+    },
+  },
 };
