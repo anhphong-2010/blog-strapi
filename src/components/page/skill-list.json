@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_skill_lists",
+  "info": {
+    "displayName": "skill-list",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

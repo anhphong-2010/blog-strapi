@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_skills",
+  "info": {
+    "displayName": "Skill",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "skills": {
+      "displayName": "skill-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.skill-list"
+    }
+  }
+}
