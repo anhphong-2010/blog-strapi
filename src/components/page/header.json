@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_headers",
+  "info": {
+    "displayName": "hero",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}
