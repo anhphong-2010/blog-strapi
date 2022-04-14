@@ -54,6 +54,18 @@
     },
     "introduction": {
       "type": "text"
+    },
+    "seo": {
+      "displayName": "seo",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.seo"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "articles"
     }
   }
 }
